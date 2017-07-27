@@ -5,7 +5,14 @@ import java.util.Scanner;
  */
 public class LocatePrimeDriver {
     public static void main(String[] args) {
+
+        LocateNthPrime();
+
+    }
+
+    private static void LocateNthPrime() {
         Validate validate = new Validate();
+        
         do {
             findNthPrime();
         } while (validate.validateContinue());
