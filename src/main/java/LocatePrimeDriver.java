@@ -12,7 +12,7 @@ public class LocatePrimeDriver {
 
     private static void LocateNthPrime() {
         Validate validate = new Validate();
-        
+
         do {
             findNthPrime();
         } while (validate.validateContinue());

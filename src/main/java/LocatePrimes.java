@@ -26,6 +26,6 @@ public class LocatePrimes {
             }
         }
         //need to subtract 1 because of iterations.(Testing helped discover this)
-        return i-1;
+        return i - 1;
     }
 }

@@ -32,4 +32,12 @@ public class LocatePrimesTest {
         int actual = lp.locatePrime(10);
         assertEquals("Did not work", expected, actual);
     }
+    
+    @Test
+    public void locateInvalidPrime() throws Exception {
+        LocatePrimes lp = new LocatePrimes();
+        String expected = "Not a positive integer. Please enter valid choice: ";
+        int actual = lp.locatePrime(-1);
+        assertEquals("Did not work", expected,actual);
+    }
 }
